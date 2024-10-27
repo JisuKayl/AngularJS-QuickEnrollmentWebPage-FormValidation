@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 1rem;
+}
+
+.header_text {
+  color: white;
+  font-size: 3rem;
+  margin-left: 7rem;
+}
+
+.nav a {
+  color: white;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav a:last-child {
+  margin-right: 0;
+}
+
+.header_button {
+  padding: 1rem;
+  width: 7rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.1rem;
+}
+
+.header_button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.apply_img {
+  width: 100vw;
+  height: 89vh;
+}
+
+.course_wrap {
+  width: 20rem;
+  height: 20rem;
+  padding: 3rem;
+  border-radius: 50%;
+  background-color: greenyellow;
+  position: relative;
+}
+
+.course_option {
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1rem solid white;
+  object-fit: cover;
+}
+
+.courses {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.course_textwrap {
+  background-color: green;
+  width: 20rem;
+  height: 3.7rem;
+  padding: 1rem;
+}
+
+.course_text {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+}
+
+.courses_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 5rem;
+  gap: 3rem;
+}
+
+.offered_text {
+  color: greenyellow;
+  font-size: 3rem;
+  text-align: center;
+  background-color: black;
+  padding-top: 2rem;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 25rem;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+.alumni_wrapper {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.alumni_header {
+  color: green;
+}
+
+.alumni_header {
+  background-color: white;
+}
+
+.alumni_image {
+  width: 16rem;
+  height: auto;
+}
+
+.text-wrapper {
+  text-align: center;
+  margin-top: 1rem;
+  max-width: 19rem;
+}
+
+.text-wrapper h2 {
+  margin-bottom: 0.5rem;
+}
+
+.text-wrapper p {
+  text-align: left;
+}
+
+.enrollmentRequestHeader {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+label {
+  color: white;
+  font-size: 1.3rem;
+  padding-block: 0.5rem;
+}
+
+input {
+  height: 2rem;
+  padding-inline: 1rem;
+  width: 100%;
+}
+
+.enrollmentImageWrap {
+  padding: 2rem;
+  margin-top: 3rem;
+  padding-block: 10rem;
+  width: 60%;
+  height: 100%;
+  background-color: black;
+}
+
+.enrollmentBookList {
+  width: 100%;
+  padding-inline: 2rem;
+}
+
+.enrollmentFormWrap {
+  width: 40%;
+}
+
+.enrollmentFormWrap {
+  padding: 8.5rem;
+  margin-top: 3rem;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.enrollmentImageDescription {
+  color: white;
+  padding: 2rem;
+  font-size: 1.4rem;
+}
+
+.enrollmentFormContentWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.enrollmentWrap {
+  display: flex;
+}
+
+.enrollmentNameWrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.enrollmentImageDescription,
+.enrollmentRequestHeader {
+  margin-top: -10%;
+}
+
+textarea {
+  padding: 1rem;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 3rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  border: none;
+  border-radius: 20px;
+  margin: 1rem;
+}
+
+button:hover {
+  background-color: greenyellow;
+}
+
+.alert {
+  color: red;
+  margin-top: 5px;
+}
